@@ -3,11 +3,39 @@
 	<head>
 		<title>My Bio</title>
 	</head>
+	
+	<!-- Style -->
+	<style>
+		h1{
+			color: white;
+			background-color: black;
+			text-align: center;
+			font-family: “Georgia”, Times New Roman,Times,serif;
+		}
+		#sectionLeft{
+			float:left;
+			width: 70%;
+		}
+		img{
+			float:left;
+			margin-right: 10px;
+		}
+		p{
+			overflow: auto;
+			font-family: “Georgia”, Times New Roman,Times,serif;
+		}
+		#sectionRight{
+			float:right;
+			width: 30%;
+		}
+
+	</style>
+
 	<body>
 		<h1>My Bio</h1>
 		
 		<!--Section 1: Name, Picture, and Bio-->
-		<section>
+		<section id ="sectionLeft">
 			<h2>Nathan Chen</h2>
 			
 			<img src = "http://duncanlock.net/images/posts/better-figures-images-plugin-for-pelican/dummy-200x200.png">
@@ -18,7 +46,7 @@
 		</section>
 		
 		<!--Section 2: Contact Info-->
-		<section>
+		<section id = "sectionRight">
 			<h2>Contact Info</h2>
 			
 			<!-- Contact info, # used for place holder links. -->
